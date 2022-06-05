@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: #555;
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.navbar-brand span {
+  color: #F46A06;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #F46A06;
+  padding: 15px;
+  font-weight: 500;
+}
+
+.btn-success {
+  background: #F46A06;
+  border: 1px solid #F46A06;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background: white;
+  border: 1px solid #F46A06;
+  color: #F46A06;
+}
+
+.banner h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+}
+
+.counter {
+  background: #F46A06;
+}
+
+.counter p {
+  color: #fff;
+  margin: 0;
+}
+
+.block2 {
+  background: url(../img/aa.png);
+  background-attachment: fixed;
+  color: #F46A06;
+}
+
+.clients {
+  background: #F46A06;
+  color: #fff;
+}
+
+.clients h5 {
+  color: #F46A06;
+}
+
+.owl-carousel .owl-item img {
+  width: auto;
+  margin: auto;
+}
+
+.accordion-button:not(.collapsed) {
+  background: none;
+}
+
+footer {
+  background: #F46A06;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

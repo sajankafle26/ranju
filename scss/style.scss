@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+$brand: #F46A06;
+body 
+{
+    font-family: 'Roboto', sans-serif;
+}
+p 
+{
+    color: #555;
+    font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6,nav
+{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+.navbar-brand
+{
+    font-size: 36px;
+    font-weight: 700;
+    span 
+    {
+        color: $brand;
+    }
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: $brand;
+    padding: 15px;
+    font-weight: 500;
+}
+.btn-success
+{
+    background: $brand;
+    border: 1px solid $brand;
+    color: #fff;
+    &:hover 
+    {
+        background: white;
+        border: 1px solid $brand;
+        color: $brand;
+    }
+}
+.banner 
+{
+    h1 
+    {
+        font-weight: 700;
+       font-size: 48px;
+       line-height: 50px;
+    }
+}
+.counter
+{
+    background: $brand;
+    p 
+    {
+        color: #fff;
+        margin: 0;
+    }
+}
+.block2
+{
+    background: url(../img/aa.png);
+    background-attachment: fixed;
+    color: $brand;
+}
+.clients
+{
+    background: $brand;
+    color: #fff;
+    h5 
+    {
+        color: $brand;
+    }
+}
+.owl-carousel .owl-item img
+{
+    width: auto;
+    margin: auto;
+}
+.accordion-button:not(.collapsed)
+{
+    background: none;
+}
+footer
+{
+    background: $brand;
+    color: #fff;
+}
